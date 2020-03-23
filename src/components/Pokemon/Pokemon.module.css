@@ -1,0 +1,100 @@
+.Pokemon {
+    border: 1px solid #D3D3D3;
+    padding: 16px;
+}
+
+.Pokemon > p {
+    text-align: center;
+}
+
+.Pokemon.Searched {
+    background-color: #48AE64;
+    color: #FFFFFF;
+}
+
+.Types {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.Type {
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    color: #FFFFFF;
+    flex: 1;
+    margin-left: 2px;
+    padding: 4px;
+}
+
+.Type.Normal {
+    background-color: #A8A77A;
+}
+
+.Type.Fire {
+    background-color: #EE8130;
+}
+
+.Type.Water {
+    background-color: #6390F0;
+}
+
+.Type.Electric {
+    background-color: #F7D02C;
+}
+
+.Type.Grass {
+    background-color: #7AC74C;
+}
+
+.Type.Ice {
+    background-color: #96D9D6;
+}
+
+.Type.Fighting {
+    background-color: #C22E28;
+}
+
+.Type.Poison {
+    background-color: #A33EA1;
+}
+
+.Type.Ground {
+    background-color: #E2BF65;
+}
+
+.Type.Flying {
+    background-color: #A98FF3;
+}
+
+.Type.Psychic {
+    background-color: #F95587;
+}
+
+.Type.Bug {
+    background-color: #A6B91A;
+}
+
+.Type.Rock {
+    background-color: #B6A136;
+}
+
+.Type.Ghost {
+    background-color: #735797;
+}
+
+.Type.Dragon {
+    background-color: #6F35FC;
+}
+
+.Type.Dark {
+    background-color: #705746;
+}
+
+.Type.Steel {
+    background-color: #B7B7CE;
+}
+
+.Type.Fairy {
+    background-color: #D685AD;
+}
