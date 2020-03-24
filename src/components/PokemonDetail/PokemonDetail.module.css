@@ -1,0 +1,24 @@
+.PokemonDetail {
+    clear: both;
+}
+
+.Row {
+    border-bottom: 1px solid #D3D3D3;
+    display: flex;
+}
+
+.Cell {
+    border-right: 1px solid #D3D3D3;
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+    width: 50%;
+}
+
+.Cell:nth-child(1) {
+    border-left: 1px solid #D3D3D3;
+}
+
+.Header {
+    font-weight: 500;
+}

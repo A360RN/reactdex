@@ -1,5 +1,8 @@
 .Pokemon {
+    align-items: center;
     border: 1px solid #D3D3D3;
+    display: flex;
+    flex-direction: column;
     padding: 16px;
 }
 
@@ -47,7 +50,7 @@
     background-color: #7AC74C;
 }
 
-.Type.Ice {
+.Type.Ice {
     background-color: #96D9D6;
 }
 

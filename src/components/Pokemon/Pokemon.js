@@ -17,7 +17,7 @@ const Pokemon = (props) => {
 	
 	return (
 		<div className={`${classes.Pokemon} ${props.isSearched ? classes.Searched : ''}`}>
-			<p>{`#${props.id} ` + capitalize(props.name)}</p>
+			<p>{`#${props.id} ` + props.name.split('-').map(word => capitalize(word)).join(' ')}</p>
 			<img src={props.sprite}></img>
 			<div className={classes.Types}>
 				{types}
